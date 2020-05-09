@@ -1,0 +1,39 @@
+https://github.com/sagarrakshe/opengl-mario/blob/master/src/main.cpp
+
+https://www.wikihow.com/Install-Mesa-(OpenGL)-on-Linux-Mint
+
+    Type/Copy/Paste: sudo apt-get update
+    Type/Copy/Paste: sudo apt-get install freeglut3
+    Type/Copy/Paste: sudo apt-get install freeglut3-dev
+    Type/Copy/Paste: sudo apt-get install binutils-gold
+    Type/Copy/Paste: sudo apt-get install g++ cmake
+    Type/Copy/Paste: sudo apt-get install libglew-dev
+    Type/Copy/Paste: sudo apt-get install g++
+    Type/Copy/Paste: sudo apt-get install mesa-common-dev
+    Type/Copy/Paste: sudo apt-get install build-essential
+    Type/Copy/Paste: sudo apt-get install libglew1.5-dev libglm-dev
+
+
+After your development libraries have been installed to get information about the OpenGL and GLX implementations running on a given X display.
+
+    Type/Copy/Paste: glxinfo | grep OpenGL
+
+
+
+    SDL2
+
+    sudo apt-get install libsdl2-dev
+
+    SDL1
+
+    sudo apt-get install libsdl1.2-dev
+
+Start the compilation with:
+
+    gcc superganes.c -lGL -lGLU -lglut -lm `sdl-config --libs`
+    
+    ./a.out
+    
+    
+
+
